@@ -1,0 +1,360 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8869f42a-1e98-4283-8c98-f52860e80478")
+	(paper "A4")
+	(title_block
+		(title "Motor_Control")
+		(date "2025-02-22")
+		(rev "01")
+		(company "Ayoub")
+		(comment 3 "ayoub.abbes39@gmail.com")
+	)
+	(lib_symbols)
+	(text "Motor_Control_Board_REV_01_1"
+		(exclude_from_sim no)
+		(at 142.748 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd770be3-814d-4ca5-8abd-1800d0e20bfd")
+	)
+	(sheet
+		(at 59.69 66.04)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20cb2828-2448-425f-9060-f935de7e5b9b")
+		(property "Sheetname" "CAN"
+			(at 59.69 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 58.928 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 49.53)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "282b4983-4221-4526-8ed4-12b6807c5f0a")
+		(property "Sheetname" "MOSFETS"
+			(at 77.47 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFETS.kicad_sch"
+			(at 77.47 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 49.53)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e53b80d-2388-49f1-abc5-5527fa2cc417")
+		(property "Sheetname" "MOSFET DRIVER'S"
+			(at 59.69 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET DRIVER'S.kicad_sch"
+			(at 57.404 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 66.04)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b0c7059-e2fc-4d99-819b-1ac37c7c6613")
+		(property "Sheetname" "Block diagram"
+			(at 24.13 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Block diagram.kicad_sch"
+			(at 9.144 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 66.04)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a15fe9f3-5f3a-433a-b72a-d19de3f430b5")
+		(property "Sheetname" "Overview"
+			(at 41.91 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Overview.kicad_sch"
+			(at 34.29 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 49.53)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1a887a8-029b-41e5-a08c-7b1b804c7016")
+		(property "Sheetname" "MCU"
+			(at 95.25 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 102.362 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 66.04)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb33f354-651d-4ce0-98c0-e5518f9730d8")
+		(property "Sheetname" "Mechanical"
+			(at 99.314 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 95.25 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 66.04)
+		(size 16.51 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "deab5c40-876c-4852-85f4-3d4a4e711fcf")
+		(property "Sheetname" "Filters"
+			(at 77.47 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Filters.kicad_sch"
+			(at 78.486 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motorc_control"
+				(path "/8869f42a-1e98-4283-8c98-f52860e80478"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
